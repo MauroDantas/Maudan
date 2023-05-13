@@ -27,10 +27,10 @@ jQuery(document).ready(function ($) {
     var typed = new Typed(".typing", {
         strings: [
             "Developer", 
-            "Software Enginer", 
-            "Digital Artist", 
+            "Estudante de Programação", 
+            "Desenvolvedor Mobile", 
             "Freelancer", 
-            "Designer"
+            "Desenvolvedor Web"
         ],
         typeSpeed: 100,
         backSpeed: 60,
@@ -40,10 +40,10 @@ jQuery(document).ready(function ($) {
     var typed2 = new Typed(".typing-2", {
         strings: [
             "Developer", 
-            "Software Enginer", 
-            "Digital Artist", 
+            "Estudante de Programação", 
+            "Desenvolvedor Mobile", 
             "Freelancer", 
-            "Designer"
+            "Desenvolvedor Web"
         ],
         typeSpeed: 100,
         backSpeed: 60,

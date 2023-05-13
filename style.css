@@ -31,7 +31,8 @@ html {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: crimson;
+    background: #263248
+    ;
 }
 
 .navbar .max-width {
@@ -47,7 +48,8 @@ html {
 }
 
 .navbar .logo a span {
-    color: crimson;
+    color: #263248
+    ;
     transition: all 0.3s ease;
 }
 
@@ -71,7 +73,8 @@ html {
 }
 
 .navbar .menu li a:hover {
-    color: crimson;
+    color: #263248
+    ;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -102,7 +105,8 @@ html {
     z-index: 9999;
     border-radius: 6px;
     color: #fff;
-    background: crimson;
+    background: #263248
+    ;
     opacity: 0;
     cursor: pointer;
     pointer-events: none;
@@ -120,7 +124,7 @@ html {
 
 .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background-image: linear-gradient(to bottom, #4a3bd7, #AC75D1, #263248);
     height: 100vh;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -148,7 +152,8 @@ html {
 
 .home .home-content .text-3 span {
     font-weight: 500;
-    color: crimson;
+    color: #263248
+    ;
 }
 
 .home .home-content a {
@@ -156,15 +161,18 @@ html {
     margin-top: 20px;
     padding: 12px 36px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #263248
+    ;
     font-size: 25px;
     color: #fff;
-    background: crimson;
+    background: #263248
+    ;
     transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-    color: crimson;
+    color: #263248
+    ;
     background: none;
 }
 
@@ -206,7 +214,8 @@ section .title::after {
     bottom: -12px;
     padding: 5px;
     transform: translateX(-50%);
-    color: crimson;
+    color: #263248
+    ;
     background: #fff;
 }
 
@@ -260,7 +269,8 @@ footer {
 }
 
 .about .about-content .right .text span {
-    color: crimson;
+    color: #263248
+    ;
 }
 
 .about .about-content .right p {
@@ -272,16 +282,17 @@ footer {
     margin-top: 20px;
     padding: 10px 30px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #263248;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    background: crimson;
+    background: #263248
+    ;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-    color: crimson;
+    color: #263248;
     background: none;
 }
 
@@ -291,17 +302,17 @@ footer {
 .services,
 .teams {
     color: #fff;
-    background: #111;
+    background-image: linear-gradient(to bottom, #4a3bd7, #AC75D1, #263248);
 }
 
 .services .title::before,
 .teams .title::before {
-    background: #fff;
+    background: transparent
 }
 
 .services .title::after {
     content: "what i provide";
-    background: #111;
+    background-color: transparent;
 }
 
 .services .services-content .card {
@@ -310,12 +321,13 @@ footer {
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
-    background: #222;
+    background-color: #263248;
     transition: all 0.3s ease;
 }
 
 .services .services-content .card:hover {
-    background: crimson;
+    background: #263248
+    ;
 }
 
 .services .services-content .card .box {
@@ -328,7 +340,7 @@ footer {
 
 .services .services-content .card i {
     font-size: 50px;
-    color: crimson;
+    color: #263248;
     transition: color 0.3s ease;
 }
 
@@ -367,16 +379,19 @@ footer {
     margin-top: 18px;
     padding: 8px 16px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #263248
+    ;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    background: crimson;
+    background: #263248
+    ;
     transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover {
-    color: crimson;
+    color: #263248
+    ;
     background: none;
 }
 
@@ -409,7 +424,8 @@ footer {
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #263248
+    ;
 }
 
 .skills-content .right .html::before {
@@ -417,7 +433,7 @@ footer {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 70%;
 }
 
 .skills-content .right .javascript::before {
@@ -425,18 +441,18 @@ footer {
 }
 
 .skills-content .right .php::before {
-    width: 50%;
+    width: 80%;
 }
 
 .skills-content .right .mysql::before {
-    width: 70%;
+    width: 30%;
 }
 
 /* teams section styling */
 
 .teams .title::after {
     content: "who with me";
-    background: #111;
+    background-color: transparent;
 }
 
 .teams .carousel .card {
@@ -444,11 +460,12 @@ footer {
     border-radius: 6px;
     padding: 25px 35px;
     transition: all 0.3s ease;
-    background: #222;
+    background-color: #263248;
 }
 
 .teams .carousel .card:hover {
-    background: crimson;
+    background: #263248
+    ;
 }
 
 .teams .carousel .card .box {
@@ -475,7 +492,8 @@ footer {
     object-fit: cover;
     transition: all 0.3s ease;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #263248
+    ;
 }
 
 .teams .carousel .card:hover img {
@@ -494,7 +512,8 @@ footer {
     outline: none !important;
     transition: all 0.3s ease;
     border-radius: 50%;
-    border: 2px solid crimson !important;
+    border: 2px solid #263248
+    !important;
 }
 
 .owl-dot.active {
@@ -504,7 +523,8 @@ footer {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: crimson !important;
+    background: #263248
+    !important;
 }
 
 
@@ -544,7 +564,8 @@ footer {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: crimson;
+    color: #263248
+    ;
 }
 
 .contact .contact-content .info .head {
@@ -605,9 +626,9 @@ footer {
     height: 100%;
     width: 100%;
     color: #fff;
-    border: 2px solid crimson;
+    border: 2px solid #263248;
     border-radius: 6px;
-    background: crimson;
+    background: #263248;
     font-size: 20px;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -615,7 +636,8 @@ footer {
 }
 
 .contact .right form .button button:hover {
-    color: crimson;
+    color: #263248
+    ;
     background: none;
 }
 
@@ -626,12 +648,13 @@ footer {
     text-align: center;
     padding: 20px 23px;
     color: #fff;
-    background: #111;
+    background-color:#263248;
 }
 
 footer span a {
     text-decoration: none;
-    color: crimson;
+    color: #AC75D1
+    ;
 }
 
 footer span a:hover {
@@ -683,7 +706,7 @@ footer span a:hover {
         padding-top: 80px;
         height: 100vh;
         width: 100%;
-        background: #111;
+        background-image: linear-gradient(to bottom, #4a3bd7, #AC75D1, #263248);
         transition: all 0.3s ease;
     }
 
