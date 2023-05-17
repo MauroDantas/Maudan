@@ -53,7 +53,27 @@ jQuery(document).ready(function ($) {
     // toggle menu/navbar script
     $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass('active');
-        $('.menu-btn i').toggleClass('active');
+        $('.menu-btn').toggleClass('active');
+        $('.menu-btn').remove('active');
+        
+    });
+
+    var menuButton = document.querySelector('.nav-open-btn');
+    var menuIcon = document.querySelector('.menu-icon');
+
+    menuButton.addEventListener('click', function() {
+  // Verifica se o menu está aberto
+    var isOpen = menuButton.classList.contains('open');
+
+    if (isOpen) {
+    // Se o menu estiver aberto, fecha o menu
+    menuButton.classList.remove('open');
+    menuIcon.setAttribute('name', 'menu-outline');
+    } else {
+    // Se o menu estiver fechado, abre o menu
+    menuButton.classList.add('open');
+    menuIcon.setAttribute('name', 'close-outline');
+    }
     });
 
     // owl carousel script
